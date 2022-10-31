@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	                                                                                                    
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+		</style>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+	<title>Svelte + Tailwind app</title>
+
+
+	<link rel="stylesheet" href="build/mystyle.css">
+</head>
+
+<body class="primtext">
+	<div class="pgbody progress">
+		<div class="progress-value"></div> 
+	  </div>               
+	<h1 >THANK YOU!</h1>
+	<a href="index.html">
+	<button id="btn1">CONTINUE</button>
+	</a>
+	<script>
+		setTimeout(function(){
+		   window.location.href="index.html";
+		}, 6000);
+	 </script>
+</body>
+</html>

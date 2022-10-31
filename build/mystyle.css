@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(30, 29, 29);
+    color: azure;
+
+   
+  }
+h1{
+    padding-top: 1.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-bottom: 0.4em;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+}
+.primtext{
+    color: azure;
+    font-size: 14;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+}
+a{
+    text-decoration: none;
+}
+button {
+    font-size: 11;
+    height: 2.8rem;
+    width: 6rem;
+    padding: 1.5em auto;
+    margin: 1.5em auto;
+    background-color: white;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 6px;
+  }
+  button:hover {
+    background-color: teal;
+  }
+  #btn1 {
+    display: flex;
+  }
+  #btn2 {
+    display: inline;
+    margin-top: 1.4rem;
+    margin-left: 2.7rem;
+    margin-right: 2.7rem;
+  }
+  .pgbody {
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    display: flex;
+    padding: 0;
+    margin: auto;
+    margin-top: 3rem;
+  }
+ 
+  .progress {
+    background: rgb(149, 145, 145);
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 15px;
+    width: 70%;
+
+  }
+ 
+  .progress-value {
+    animation: load 6s normal backwards;
+    height: 15px;
+    width: 0;
+  }
+ 
+  @keyframes load {
+    0% {
+width: 100%;
+       background: teal;
+     }
+    65%{
+      width: 35%;
+      background: teal;
+    }
+    66%{  
+width: 34%;
+        background: #ffbf00;
+   }
+80%{  
+width: 20%;
+        background: maroon;
+  }
+99%{  
+width: 1%;
+        background: maroon;
+  }
+  }
